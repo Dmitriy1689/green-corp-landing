@@ -247,4 +247,142 @@ body {
     width: 75px;
     height: 75px;
   }
+  .features {
+    background-color: white;
+    padding: 50px 10px 50px 10px;
+  }
+  .cards {
+    grid-template-columns: auto;
+  }
+  .features__feedback {
+    flex-direction: column;
+  }
+  .features__feedback-left {
+    margin-right: 0;
+  }
+  .features__feedback-left h3 {
+    font-size: 36px;
+  }
+  .features__feedback-right {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .features__box h3 {
+    font-size: 36px;
+  }
+  .features__savings-box {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .promo__image {
+    width: 100%;
+    height: 500px;
+  }
+  .promo {
+    flex-direction: column-reverse;    
+  }
+  .promo__right {
+    padding: 50px 10px 50px 10px;
+  }
+}
+.features {
+  background-color: white;
+  padding: 115px 60px 115px 60px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+.card {
+  padding: 35px 40px 25px 40px;
+  border: #D9E4E6;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.card p {
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.8;
+}
+.card__logo {
+  height: 100px;
+  width: 100px;
+  font-size: 32px;
+  font-weight: 700;
+  background-color: #eaeff9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num1 {
+  color: #ffb406;
+}
+.num2 {
+  color: #ad1714;
+}
+.num3 {
+  color:#22a030;
+}
+.features__border {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px;
+  color: #22335c;
+}
+.features__feedback {
+  display: flex;
+}
+.features__feedback-left {
+  margin-right: 10px;
+}
+.features__feedback-left h3 {
+  font-size: 48px;
+}
+.features__feedback-left p {
+  font-size: 18px;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.features__feedback-right {
+  display: flex;
+  align-items: center;
+}
+.features__box {
+  padding: 30px 40px 25px 40px;
+  color: white;
+  border-radius: 25px;
+}
+.features__box h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+.features__savings-box {
+  background-color: #dc5e26;
+  box-shadow: inset 0px 6px 0px 0px rgb(221 95 38 / 20%);
+  margin-right: 30px;
+}
+.features__rate-box {
+  background-color: #1D263A;
+  box-shadow: inset 0px 6px 0px 0px rgb(29 38 58 / 20%);
+}
+.fas.fa-star {
+  color: #ff7039;
+}
+.promo__image {
+  background-image: url(img/promo.jpg);
+  width: 50%;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+
+}
+.promo {
+  display: flex;
+}
+.promo__right {
+  background-color: #dd5f26;
+  padding: 160px 60px 160px 60px;
 }
